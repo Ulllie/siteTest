@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logoGH">
+            <div class="nav">
+                <a href="https://github.com/Ulllie"target="_blank">
+                    <img src="img/GitHub-Mark-64px.png" alt="logoGH">
+                </a>
+            </div>    
+        </div>
+
+        <div class="gitHub">
+            <p>My GitHub</p>
+        </div>
+
+        <div class="registration">
+            <h1>Регистрация</h1>
+        </div>
+
+        <form action="/main/registration.go" method="post">
+            <input type="text" class="form-control" name="login" id="login" 
+            placeholder="Введите свой логин"><br><br>
+            <input type="password" class="form-control" name="pass" id="pass" 
+            placeholder="Введите свой пароль"><br><br>
+            <button class="btn btn-success" type="submit">Зарегистрироваться</button>
+        </form>
+
+    </header>
+</body>
+</html>

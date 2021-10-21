@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(209, 214, 223);
+    font-family: Comfortaa;
+    font-weight: 400;
+}
+.logoGH{
+    text-align: right;
+    margin-right: 8px;
+}
+
+.gitHub{
+    text-align: right;
+    color: rgb(0, 0, 0);   
+}
+
+.registration{
+    text-align: center;
+    margin-top: -100px;
+    color: rgb(0, 0, 0);
+    vertical-align: 150px;
+}
+
+form {
+    text-align:center;
+    margin-top: 200px;
+    background-image: none;
+}
+
+input{
+    border-radius: 10px;
+    text-align: center; 
+    outline: none;
+    
+}
+
+:focus::-webkit-input-placeholder {color: transparent}
+:focus::-moz-placeholder          {color: transparent}
+:focus:-moz-placeholder           {color: transparent}
+:focus:-ms-input-placeholder      {color: transparent}
+
+::placeholder{
+    text-align: center;
+}
+
+button{
+    border-radius: 10px;
+}
